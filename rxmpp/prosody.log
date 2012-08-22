@@ -1,0 +1,301 @@
+Jul 09 21:50:24 general	info	Hello and welcome to Prosody version 0.8.2
+Jul 09 21:50:24 xmppstream	warn	The version of LuaExpat on your system leaves Prosody vulnerable to denial-of-service attacks. You should upgrade to LuaExpat 1.1.1 or higher as soon as possible. See http://prosody.im/doc/depends#luaexpat for more information.
+Jul 09 21:50:24 general	info	Prosody is using the select backend for connection handling
+Jul 09 21:50:24 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Check that the path is correct, and the file exists.
+Jul 09 21:50:24 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Previous error (see logs), or other system error.
+Jul 09 21:50:24 localhost:posix	info	Successfully daemonized to PID 1325
+Jul 22 13:43:47 general	info	Hello and welcome to Prosody version 0.8.2
+Jul 22 13:43:47 xmppstream	warn	The version of LuaExpat on your system leaves Prosody vulnerable to denial-of-service attacks. You should upgrade to LuaExpat 1.1.1 or higher as soon as possible. See http://prosody.im/doc/depends#luaexpat for more information.
+Jul 22 13:43:48 general	info	Prosody is using the select backend for connection handling
+Jul 22 13:43:48 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Check that the path is correct, and the file exists.
+Jul 22 13:43:48 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Previous error (see logs), or other system error.
+Jul 22 13:43:48 localhost:posix	info	Successfully daemonized to PID 4442
+Jul 22 13:43:50 c2s7f7fca497560	info	Client connected
+Jul 22 13:43:50 c2s7f7fca497560	info	Disconnecting client, <stream:error> is: not-well-formed
+Jul 22 13:43:50 c2s7f7fca497560	info	Client disconnected: not-well-formed
+Jul 22 13:43:50 c2s7f7fca497560	info	Destroying session for (unknown) ((unknown)@(unknown))
+Jul 22 14:33:16 c2s7f7fca6524b0	info	Client connected
+Jul 22 14:33:16 c2s7f7fca6524b0	info	Disconnecting client, <stream:error> is: not-well-formed
+Jul 22 14:33:16 c2s7f7fca6524b0	info	Client disconnected: not-well-formed
+Jul 22 14:33:16 c2s7f7fca6524b0	info	Destroying session for (unknown) ((unknown)@(unknown))
+Jul 22 14:33:43 c2s7f7fca658560	info	Client connected
+Jul 22 14:33:43 c2s7f7fca658560	info	Disconnecting client, <stream:error> is: not-well-formed
+Jul 22 14:33:43 c2s7f7fca658560	info	Client disconnected: not-well-formed
+Jul 22 14:33:43 c2s7f7fca658560	info	Destroying session for (unknown) ((unknown)@(unknown))
+Jul 22 14:35:52 c2s7f7fca665c50	info	Client connected
+Jul 22 14:35:52 c2s7f7fca665c50	info	Disconnecting client, <stream:error> is: not-well-formed
+Jul 22 14:35:52 c2s7f7fca665c50	info	Client disconnected: not-well-formed
+Jul 22 14:35:52 c2s7f7fca665c50	info	Destroying session for (unknown) ((unknown)@(unknown))
+Jul 22 14:36:21 c2s7f7fca66bfe0	info	Client connected
+Jul 22 14:36:21 c2s7f7fca66bfe0	info	Disconnecting client, <stream:error> is: invalid-namespace
+Jul 22 14:36:21 c2s7f7fca66bfe0	info	Client disconnected: invalid-namespace
+Jul 22 14:36:21 c2s7f7fca66bfe0	info	Destroying session for (unknown) ((unknown)@(unknown))
+Jul 22 14:36:21 stanzarouter	warn	Unhandled c2s_destroyed stream element: iq; xmlns=: <iq id='cato' type='get' to='127.0.0.1' xmlns=''>
+                  <query xmlns='jabber:iq:auth'/>
+                </iq>
+Jul 22 14:37:34 c2s7f7fca6767b0	info	Client connected
+Jul 22 14:37:34 c2s7f7fca6767b0	info	Disconnecting client, <stream:error> is: invalid-namespace
+Jul 22 14:37:34 c2s7f7fca6767b0	info	Client disconnected: invalid-namespace
+Jul 22 14:37:34 c2s7f7fca6767b0	info	Destroying session for (unknown) ((unknown)@(unknown))
+Jul 22 14:37:34 stanzarouter	warn	Unhandled c2s_destroyed stream element: iq; xmlns=: <iq id='cato' type='get' to='127.0.0.1' xmlns=''>
+                  <query xmlns='jabber:iq:auth'/>
+                </iq>
+Jul 22 14:37:48 c2s7f7fca67c0e0	info	Client connected
+Jul 22 14:37:48 c2s7f7fca67c0e0	info	Disconnecting client, <stream:error> is: invalid-namespace
+Jul 22 14:37:48 c2s7f7fca67c0e0	info	Client disconnected: invalid-namespace
+Jul 22 14:37:48 c2s7f7fca67c0e0	info	Destroying session for (unknown) ((unknown)@(unknown))
+Jul 22 14:39:43 c2s7f7fca688840	info	Client connected
+Jul 22 14:39:43 c2s7f7fca688840	info	Disconnecting client, <stream:error> is: invalid-namespace
+Jul 22 14:39:43 c2s7f7fca688840	info	Client disconnected: invalid-namespace
+Jul 22 14:39:43 c2s7f7fca688840	info	Destroying session for (unknown) ((unknown)@(unknown))
+Jul 22 14:39:43 stanzarouter	warn	Unhandled c2s_destroyed stream element: iq; xmlns=: <iq id='cato' type='get' to='127.0.0.1' xmlns=''>
+                  <query xmlns='jabber:iq:auth'/>
+                </iq>
+Jul 22 14:41:27 c2s7f7fca694e80	info	Client connected
+Jul 22 14:41:27 c2s7f7fca694e80	info	Disconnecting client, <stream:error> is: invalid-namespace
+Jul 22 14:41:27 c2s7f7fca694e80	info	Client disconnected: invalid-namespace
+Jul 22 14:41:27 c2s7f7fca694e80	info	Destroying session for (unknown) ((unknown)@(unknown))
+Jul 22 14:45:21 c2s7f7fca6aa340	info	Client connected
+Jul 22 14:45:21 c2s7f7fca6aa340	info	Disconnecting client, <stream:error> is: not-well-formed
+Jul 22 14:45:21 c2s7f7fca6aa340	info	Client disconnected: not-well-formed
+Jul 22 14:45:21 c2s7f7fca6aa340	info	Destroying session for (unknown) ((unknown)@(unknown))
+Jul 22 14:48:06 c2s7f7fca6ba6a0	info	Client connected
+Jul 22 14:48:06 c2s7f7fca6ba6a0	info	Disconnecting client, <stream:error> is: not-well-formed
+Jul 22 14:48:06 c2s7f7fca6ba6a0	info	Client disconnected: not-well-formed
+Jul 22 14:48:06 c2s7f7fca6ba6a0	info	Destroying session for (unknown) ((unknown)@(unknown))
+Jul 22 14:48:58 c2s7f7fca528730	info	Client connected
+Jul 22 14:48:58 c2s7f7fca528730	info	Disconnecting client, <stream:error> is: not-well-formed
+Jul 22 14:48:58 c2s7f7fca528730	info	Client disconnected: not-well-formed
+Jul 22 14:48:58 c2s7f7fca528730	info	Destroying session for (unknown) ((unknown)@(unknown))
+Jul 22 14:59:56 c2s7f7fca57c7e0	info	Client connected
+Jul 22 14:59:56 c2s7f7fca57c7e0	info	Disconnecting client, <stream:error> is: not-well-formed
+Jul 22 14:59:56 c2s7f7fca57c7e0	info	Client disconnected: not-well-formed
+Jul 22 14:59:56 c2s7f7fca57c7e0	info	Destroying session for (unknown) ((unknown)@(unknown))
+Jul 22 15:01:01 c2s7f7fca585c70	info	Client connected
+Jul 22 15:01:01 c2s7f7fca585c70	info	Disconnecting client, <stream:error> is: not-well-formed
+Jul 22 15:01:01 c2s7f7fca585c70	info	Client disconnected: not-well-formed
+Jul 22 15:01:01 c2s7f7fca585c70	info	Destroying session for (unknown) ((unknown)@(unknown))
+Jul 22 15:01:37 c2s7f7fca58b9c0	info	Client connected
+Jul 22 15:01:45 c2s7f7fca58b9c0	info	Client disconnected: closed
+Jul 22 15:01:45 c2s7f7fca58b9c0	info	Destroying session for (unknown) ((unknown)@(unknown))
+Jul 22 15:02:07 c2s7f7fca591ba0	info	Client connected
+Jul 22 15:02:07 c2s7f7fca591ba0	info	Disconnecting client, <stream:error> is: not-well-formed
+Jul 22 15:02:07 c2s7f7fca591ba0	info	Client disconnected: not-well-formed
+Jul 22 15:02:07 c2s7f7fca591ba0	info	Destroying session for (unknown) ((unknown)@(unknown))
+Jul 22 15:03:39 c2s7f7fca59c8e0	info	Client connected
+Jul 22 15:03:39 c2s7f7fca59c8e0	info	Disconnecting client, <stream:error> is: not-well-formed
+Jul 22 15:03:39 c2s7f7fca59c8e0	info	Client disconnected: not-well-formed
+Jul 22 15:03:39 c2s7f7fca59c8e0	info	Destroying session for (unknown) ((unknown)@(unknown))
+Jul 22 17:04:12 c2s7f7fcb0b29a0	info	Client connected
+Jul 22 17:04:12 c2s7f7fcb0b29a0	info	Disconnecting client, <stream:error> is: not-well-formed
+Jul 22 17:04:12 c2s7f7fcb0b29a0	info	Client disconnected: not-well-formed
+Jul 22 17:04:12 c2s7f7fcb0b29a0	info	Destroying session for (unknown) ((unknown)@(unknown))
+Jul 22 17:04:40 c2s7f7fcb0b9180	info	Client connected
+Jul 22 17:04:40 c2s7f7fcb0b9180	info	Disconnecting client, <stream:error> is: <stream:error><host-unknown xmlns='urn:ietf:params:xml:ns:xmpp-streams'/><text xmlns='urn:ietf:params:xml:ns:xmpp-streams'>This server does not serve 127.0.0.1</text></stream:error>
+Jul 22 17:04:40 c2s7f7fcb0b9180	info	Client disconnected: This server does not serve 127.0.0.1
+Jul 22 17:04:40 c2s7f7fcb0b9180	info	Destroying session for (unknown) ((unknown)@127.0.0.1)
+Jul 22 17:05:57 c2s7f7fcb0c3ea0	info	Client connected
+Jul 22 17:05:57 c2s7f7fcb0c3ea0	info	Disconnecting client, <stream:error> is: <stream:error><improper-addressing xmlns='urn:ietf:params:xml:ns:xmpp-streams'/><text xmlns='urn:ietf:params:xml:ns:xmpp-streams'>A &apos;to&apos; attribute is required on stream headers</text></stream:error>
+Jul 22 17:05:57 c2s7f7fcb0c3ea0	info	Client disconnected: A 'to' attribute is required on stream headers
+Jul 22 17:05:57 c2s7f7fcb0c3ea0	info	Destroying session for (unknown) ((unknown)@(unknown))
+Jul 22 17:08:31 c2s7f7fcb0d4430	info	Client connected
+Jul 22 17:08:31 c2s7f7fcb0d4430	info	Disconnecting client, <stream:error> is: not-well-formed
+Jul 22 17:08:31 c2s7f7fcb0d4430	info	Client disconnected: not-well-formed
+Jul 22 17:08:31 c2s7f7fcb0d4430	info	Destroying session for (unknown) ((unknown)@localhost)
+Jul 22 17:10:45 c2s7f7fcb0e3f30	info	Client connected
+Jul 22 17:10:45 c2s7f7fcb0e3f30	info	Client disconnected: session closed
+Jul 22 17:10:45 c2s7f7fcb0e3f30	info	Destroying session for (unknown) ((unknown)@localhost)
+Jul 22 17:11:05 c2s7f7fcb0ea600	info	Client connected
+Jul 22 17:11:17 c2s7f7fcb0ea600	info	Client disconnected: closed
+Jul 22 17:11:17 c2s7f7fcb0ea600	info	Destroying session for (unknown) ((unknown)@localhost)
+Jul 22 17:12:15 c2s7f7fcb0f4e30	info	Client connected
+Jul 22 17:12:15 c2s7f7fcb0f4e30	info	Client disconnected: session closed
+Jul 22 17:12:15 c2s7f7fcb0f4e30	info	Destroying session for (unknown) ((unknown)@localhost)
+Jul 22 17:13:08 c2s7f7fca569030	info	Client connected
+Jul 22 17:13:08 c2s7f7fca569030	info	Authenticated as cato@localhost
+Jul 22 17:13:44 c2s7f7fca569030	info	Client disconnected: session closed
+Jul 22 17:13:44 c2s7f7fca569030	info	Destroying session for cato@localhost/“yeung cato”的 iMac (cato@localhost)
+Jul 22 17:15:41 c2s7f7fca5d4970	info	Client connected
+Jul 22 17:15:41 c2s7f7fca5d4970	info	Client disconnected: session closed
+Jul 22 17:15:41 c2s7f7fca5d4970	info	Destroying session for (unknown) ((unknown)@localhost)
+Jul 22 18:13:29 mod_posix	warn	Received SIGTERM
+Jul 22 18:13:29 general	info	Shutting down: Received SIGTERM
+Jul 22 18:13:29 mod_posix	warn	Received SIGTERM
+Jul 22 18:13:29 general	info	Shutting down: Received SIGTERM
+Jul 22 18:13:29 general	info	Shutting down...
+Jul 22 18:13:29 general	info	Shutdown status: Cleaning up
+Jul 22 18:13:29 general	info	Shutdown status: Closing all active sessions
+Jul 22 18:13:29 general	info	Shutdown status: Closing all server connections
+Jul 22 18:13:29 general	info	Shutdown complete
+Jul 25 21:05:40 general	info	Hello and welcome to Prosody version 0.8.2
+Jul 25 21:05:40 xmppstream	warn	The version of LuaExpat on your system leaves Prosody vulnerable to denial-of-service attacks. You should upgrade to LuaExpat 1.1.1 or higher as soon as possible. See http://prosody.im/doc/depends#luaexpat for more information.
+Jul 25 21:05:40 general	info	Prosody is using the select backend for connection handling
+Jul 25 21:05:40 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Check that the path is correct, and the file exists.
+Jul 25 21:05:40 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Previous error (see logs), or other system error.
+Jul 25 21:05:40 localhost:posix	info	Successfully daemonized to PID 945
+Jul 25 21:05:45 c2s7fa5e349b850	info	Client connected
+Jul 25 21:05:45 c2s7fa5e349b850	info	Client disconnected: session closed
+Jul 25 21:05:45 c2s7fa5e349b850	info	Destroying session for (unknown) ((unknown)@localhost)
+Jul 25 21:12:10 c2s7fa5e35902b0	info	Client connected
+Jul 25 21:12:10 c2s7fa5e35902b0	info	Client disconnected: session closed
+Jul 25 21:12:10 c2s7fa5e35902b0	info	Destroying session for (unknown) ((unknown)@localhost)
+Jul 25 21:18:11 c2s7fa5e35afd00	info	Client connected
+Jul 25 21:18:11 c2s7fa5e35afd00	info	Client disconnected: session closed
+Jul 25 21:18:11 c2s7fa5e35afd00	info	Destroying session for (unknown) ((unknown)@localhost)
+Jul 25 21:19:18 c2s7fa5e35b9b30	info	Client connected
+Jul 25 21:19:18 c2s7fa5e35b9b30	info	Client disconnected: session closed
+Jul 25 21:19:18 c2s7fa5e35b9b30	info	Destroying session for (unknown) ((unknown)@localhost)
+Jul 25 21:26:49 c2s7fa5e35dffb0	info	Client connected
+Jul 25 21:26:49 c2s7fa5e35dffb0	info	Client disconnected: session closed
+Jul 25 21:26:49 c2s7fa5e35dffb0	info	Destroying session for (unknown) ((unknown)@localhost)
+Jul 25 21:35:31 c2s7fa5e360f760	info	Client connected
+Jul 25 21:35:31 c2s7fa5e360f760	info	Client disconnected: session closed
+Jul 25 21:35:31 c2s7fa5e360f760	info	Destroying session for (unknown) ((unknown)@localhost)
+Jul 25 21:36:04 c2s7fa5e36170d0	info	Client connected
+Jul 25 21:36:04 c2s7fa5e36170d0	info	Client disconnected: session closed
+Jul 25 21:36:04 c2s7fa5e36170d0	info	Destroying session for (unknown) ((unknown)@localhost)
+Jul 25 21:36:39 c2s7fa5e361e7e0	info	Client connected
+Jul 25 21:36:39 c2s7fa5e361e7e0	info	Client disconnected: session closed
+Jul 25 21:36:39 c2s7fa5e361e7e0	info	Destroying session for (unknown) ((unknown)@localhost)
+Jul 25 21:56:22 c2s7fa5e367b120	info	Client connected
+Jul 25 21:56:22 c2s7fa5e367b120	info	Client disconnected: session closed
+Jul 25 21:56:22 c2s7fa5e367b120	info	Destroying session for (unknown) ((unknown)@localhost)
+Jul 25 21:56:39 c2s7fa5e36812d0	info	Client connected
+Jul 25 21:56:39 c2s7fa5e36812d0	info	Client disconnected: session closed
+Jul 25 21:56:39 c2s7fa5e36812d0	info	Destroying session for (unknown) ((unknown)@localhost)
+Jul 25 21:57:29 c2s7fa5e3689b90	info	Client connected
+Jul 25 21:57:38 c2s7fa5e3689b90	info	Client disconnected: closed
+Jul 25 21:57:38 c2s7fa5e3689b90	info	Destroying session for (unknown) ((unknown)@localhost)
+Jul 25 21:58:00 c2s7fa5e36913d0	info	Client connected
+Jul 25 21:58:06 c2s7fa5e36913d0	info	Client disconnected: closed
+Jul 25 21:58:06 c2s7fa5e36913d0	info	Destroying session for (unknown) ((unknown)@localhost)
+Jul 25 21:58:38 c2s7fa5e36992e0	info	Client connected
+Jul 25 21:58:38 c2s7fa5e36992e0	info	Client disconnected: closed
+Jul 25 21:58:38 c2s7fa5e36992e0	info	Destroying session for (unknown) ((unknown)@localhost)
+Jul 25 21:59:29 c2s7fa5e36a1f90	info	Client connected
+Jul 25 21:59:29 c2s7fa5e36a1f90	info	Client disconnected: closed
+Jul 25 21:59:29 c2s7fa5e36a1f90	info	Destroying session for (unknown) ((unknown)@localhost)
+Jul 25 21:59:30 c2s7fa5e36a6ff0	info	Client connected
+Jul 25 21:59:30 c2s7fa5e36a6ff0	info	Client disconnected: closed
+Jul 25 21:59:30 c2s7fa5e36a6ff0	info	Destroying session for (unknown) ((unknown)@localhost)
+Jul 25 22:06:18 mod_posix	warn	Received SIGTERM
+Jul 25 22:06:18 general	info	Shutting down: Received SIGTERM
+Jul 25 22:06:18 mod_posix	warn	Received SIGTERM
+Jul 25 22:06:18 general	info	Shutting down: Received SIGTERM
+Jul 25 22:06:18 general	info	Shutting down...
+Jul 25 22:06:18 general	info	Shutdown status: Cleaning up
+Jul 25 22:06:18 general	info	Shutdown status: Closing all active sessions
+Jul 25 22:06:18 general	info	Shutdown status: Closing all server connections
+Jul 25 22:06:18 general	info	Shutdown complete
+Jul 31 20:36:56 general	info	Hello and welcome to Prosody version 0.8.2
+Jul 31 20:36:56 xmppstream	warn	The version of LuaExpat on your system leaves Prosody vulnerable to denial-of-service attacks. You should upgrade to LuaExpat 1.1.1 or higher as soon as possible. See http://prosody.im/doc/depends#luaexpat for more information.
+Jul 31 20:36:56 general	info	Prosody is using the select backend for connection handling
+Jul 31 20:36:56 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Check that the path is correct, and the file exists.
+Jul 31 20:36:56 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Previous error (see logs), or other system error.
+Jul 31 20:36:56 localhost:posix	info	Successfully daemonized to PID 694
+Jul 31 20:36:58 c2s7f87f0d189f0	info	Client connected
+Jul 31 20:37:34 c2s7f87f0d189f0	info	Client disconnected: closed
+Jul 31 20:37:34 c2s7f87f0d189f0	info	Destroying session for (unknown) ((unknown)@localhost)
+Jul 31 20:37:35 c2s7f87f0d2da20	info	Client connected
+Jul 31 20:37:35 c2s7f87f0d2da20	info	Client disconnected: closed
+Jul 31 20:37:35 c2s7f87f0d2da20	info	Destroying session for (unknown) ((unknown)@localhost)
+Jul 31 21:05:40 c2s7f87f0df82b0	info	Client connected
+Jul 31 21:05:40 c2s7f87f0df82b0	info	Disconnecting client, <stream:error> is: invalid-namespace
+Jul 31 21:05:40 c2s7f87f0df82b0	info	Client disconnected: invalid-namespace
+Jul 31 21:05:40 c2s7f87f0df82b0	info	Destroying session for (unknown) ((unknown)@(unknown))
+Jul 31 21:14:02 mod_posix	warn	Received SIGTERM
+Jul 31 21:14:02 general	info	Shutting down: Received SIGTERM
+Jul 31 21:14:02 mod_posix	warn	Received SIGTERM
+Jul 31 21:14:02 general	info	Shutting down: Received SIGTERM
+Jul 31 21:14:02 general	info	Shutting down...
+Jul 31 21:14:02 general	info	Shutdown status: Cleaning up
+Jul 31 21:14:02 general	info	Shutdown status: Closing all active sessions
+Jul 31 21:14:02 general	info	Shutdown status: Closing all server connections
+Jul 31 21:14:02 general	info	Shutdown complete
+Aug 18 20:34:13 general	info	Hello and welcome to Prosody version 0.8.2
+Aug 18 20:34:13 xmppstream	warn	The version of LuaExpat on your system leaves Prosody vulnerable to denial-of-service attacks. You should upgrade to LuaExpat 1.1.1 or higher as soon as possible. See http://prosody.im/doc/depends#luaexpat for more information.
+Aug 18 20:34:13 general	info	Prosody is using the select backend for connection handling
+Aug 18 20:34:13 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Check that the path is correct, and the file exists.
+Aug 18 20:34:13 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Previous error (see logs), or other system error.
+Aug 18 20:34:13 localhost:posix	info	Successfully daemonized to PID 1375
+Aug 18 20:36:08 c2s7fdf18566770	info	Client connected
+Aug 18 22:57:58 c2s7fdf18566770	info	Client disconnected: closed
+Aug 18 22:57:58 c2s7fdf18566770	info	Destroying session for (unknown) ((unknown)@localhost)
+Aug 18 22:59:06 c2s7fdf185c60a0	info	Client connected
+Aug 18 22:59:14 c2s7fdf185c60a0	info	Client disconnected: closed
+Aug 18 22:59:14 c2s7fdf185c60a0	info	Destroying session for (unknown) ((unknown)@(unknown))
+Aug 18 22:59:52 c2s7fdf185c1110	info	Client connected
+Aug 18 22:59:56 c2s7fdf185c1110	info	Client disconnected: closed
+Aug 18 22:59:56 c2s7fdf185c1110	info	Destroying session for (unknown) ((unknown)@(unknown))
+Aug 18 23:08:45 c2s7fdf1858bee0	info	Client connected
+Aug 18 23:08:50 c2s7fdf1858bee0	info	Client disconnected: closed
+Aug 18 23:08:50 c2s7fdf1858bee0	info	Destroying session for (unknown) ((unknown)@(unknown))
+Aug 18 23:09:28 c2s7fdf185880c0	info	Client connected
+Aug 18 23:09:40 c2s7fdf185880c0	info	Client disconnected: closed
+Aug 18 23:09:40 c2s7fdf185880c0	info	Destroying session for (unknown) ((unknown)@(unknown))
+Aug 18 23:27:43 c2s7fdf184f0ec0	info	Client connected
+Aug 19 00:14:10 c2s7fdf184f0ec0	info	Client disconnected: closed
+Aug 19 00:14:10 c2s7fdf184f0ec0	info	Destroying session for (unknown) ((unknown)@localhost)
+Aug 19 00:14:48 mod_posix	warn	Received SIGTERM
+Aug 19 00:14:48 general	info	Shutting down: Received SIGTERM
+Aug 19 00:14:48 mod_posix	warn	Received SIGTERM
+Aug 19 00:14:48 general	info	Shutting down: Received SIGTERM
+Aug 19 00:14:48 general	info	Shutting down...
+Aug 19 00:14:48 general	info	Shutdown status: Cleaning up
+Aug 19 00:14:48 general	info	Shutdown status: Closing all active sessions
+Aug 19 00:14:48 general	info	Shutdown status: Closing all server connections
+Aug 19 00:14:48 general	info	Shutdown complete
+Aug 19 10:29:15 general	info	Hello and welcome to Prosody version 0.8.2
+Aug 19 10:29:15 xmppstream	warn	The version of LuaExpat on your system leaves Prosody vulnerable to denial-of-service attacks. You should upgrade to LuaExpat 1.1.1 or higher as soon as possible. See http://prosody.im/doc/depends#luaexpat for more information.
+Aug 19 10:29:15 general	info	Prosody is using the select backend for connection handling
+Aug 19 10:29:15 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Check that the path is correct, and the file exists.
+Aug 19 10:29:15 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Previous error (see logs), or other system error.
+Aug 19 10:29:15 localhost:posix	info	Successfully daemonized to PID 1489
+Aug 19 10:29:18 c2s7fbe32525530	info	Client connected
+Aug 19 10:29:20 c2s7fbe32525530	info	Client disconnected: closed
+Aug 19 10:29:20 c2s7fbe32525530	info	Destroying session for (unknown) ((unknown)@localhost)
+Aug 19 11:05:22 c2s7fbe32617d50	info	Client connected
+Aug 19 11:29:24 c2s7fbe32617d50	info	Client disconnected: closed
+Aug 19 11:29:24 c2s7fbe32617d50	info	Destroying session for (unknown) ((unknown)@localhost)
+Aug 19 11:30:08 c2s7fbe32696610	info	Client connected
+Aug 19 11:30:11 c2s7fbe32696610	info	Client disconnected: closed
+Aug 19 11:30:11 c2s7fbe32696610	info	Destroying session for (unknown) ((unknown)@localhost)
+Aug 19 11:37:21 c2s7fbe326bb860	info	Client connected
+Aug 19 11:37:26 c2s7fbe326bb860	info	Client disconnected: closed
+Aug 19 11:37:26 c2s7fbe326bb860	info	Destroying session for (unknown) ((unknown)@localhost)
+Aug 19 11:38:30 c2s7fbe326c5b50	info	Client connected
+Aug 19 11:38:32 c2s7fbe326c5b50	info	Client disconnected: closed
+Aug 19 11:38:32 c2s7fbe326c5b50	info	Destroying session for (unknown) ((unknown)@localhost)
+Aug 19 12:45:15 c2s7fbe3267b440	info	Client connected
+Aug 19 12:45:28 c2s7fbe3267b440	info	Client disconnected: closed
+Aug 19 12:45:28 c2s7fbe3267b440	info	Destroying session for (unknown) ((unknown)@localhost)
+Aug 19 12:45:37 c2s7fbe326824f0	info	Client connected
+Aug 19 12:45:40 c2s7fbe326824f0	info	Client disconnected: closed
+Aug 19 12:45:40 c2s7fbe326824f0	info	Destroying session for (unknown) ((unknown)@localhost)
+Aug 19 12:53:49 c2s7fbe33092bb0	info	Client connected
+Aug 19 13:03:14 c2s7fbe33092bb0	info	Client disconnected: closed
+Aug 19 13:03:14 c2s7fbe33092bb0	info	Destroying session for (unknown) ((unknown)@localhost)
+Aug 19 13:03:46 mod_posix	warn	Received SIGTERM
+Aug 19 13:03:46 general	info	Shutting down: Received SIGTERM
+Aug 19 13:03:46 mod_posix	warn	Received SIGTERM
+Aug 19 13:03:46 general	info	Shutting down: Received SIGTERM
+Aug 19 13:03:46 general	info	Shutting down...
+Aug 19 13:03:46 general	info	Shutdown status: Cleaning up
+Aug 19 13:03:46 general	info	Shutdown status: Closing all active sessions
+Aug 19 13:03:46 general	info	Shutdown status: Closing all server connections
+Aug 19 13:03:46 general	info	Shutdown complete
+Aug 21 21:52:21 general	info	Hello and welcome to Prosody version 0.8.2
+Aug 21 21:52:21 xmppstream	warn	The version of LuaExpat on your system leaves Prosody vulnerable to denial-of-service attacks. You should upgrade to LuaExpat 1.1.1 or higher as soon as possible. See http://prosody.im/doc/depends#luaexpat for more information.
+Aug 21 21:52:21 general	info	Prosody is using the select backend for connection handling
+Aug 21 21:52:21 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Check that the path is correct, and the file exists.
+Aug 21 21:52:21 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Previous error (see logs), or other system error.
+Aug 21 21:52:21 localhost:posix	info	Successfully daemonized to PID 650
+Aug 21 22:11:48 mod_posix	warn	Received SIGTERM
+Aug 21 22:11:48 general	info	Shutting down: Received SIGTERM
+Aug 21 22:11:48 mod_posix	warn	Received SIGTERM
+Aug 21 22:11:48 general	info	Shutting down: Received SIGTERM
+Aug 21 22:11:48 general	info	Shutting down...
+Aug 21 22:11:48 general	info	Shutdown status: Cleaning up
+Aug 21 22:11:48 general	info	Shutdown status: Closing all active sessions
+Aug 21 22:11:48 general	info	Shutdown status: Closing all server connections
+Aug 21 22:11:48 general	info	Shutdown complete

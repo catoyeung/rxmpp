@@ -1,0 +1,26 @@
+Jun 09 11:54:41 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Check that the path is correct, and the file exists.
+Jun 09 11:54:41 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Previous error (see logs), or other system error.
+Jun 09 11:54:41 general	error	Failed to open server port 5222, check that Prosody or another XMPP server is not already running and using this port
+Jun 09 11:54:41 general	error	Failed to open server port 5269, check that Prosody or another XMPP server is not already running and using this port
+Jun 09 11:54:41 general	error	Failed to open server port 5347, this port is in use by another application
+Jun 09 11:54:41 general	error	Failed to open server port 5223, check that Prosody or another XMPP server is not already running and using this port
+Jul 08 18:09:52 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Check that the path is correct, and the file exists.
+Jul 08 18:09:52 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Previous error (see logs), or other system error.
+Jul 08 18:09:52 general	error	Failed to open server port 5222, check that Prosody or another XMPP server is not already running and using this port
+Jul 08 18:09:52 general	error	Failed to open server port 5269, check that Prosody or another XMPP server is not already running and using this port
+Jul 08 18:09:52 general	error	Failed to open server port 5347, this port is in use by another application
+Jul 08 18:09:52 general	error	Failed to open server port 5223, check that Prosody or another XMPP server is not already running and using this port
+Jul 09 21:50:24 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Check that the path is correct, and the file exists.
+Jul 09 21:50:24 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Previous error (see logs), or other system error.
+Jul 22 13:43:48 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Check that the path is correct, and the file exists.
+Jul 22 13:43:48 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Previous error (see logs), or other system error.
+Jul 25 21:05:40 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Check that the path is correct, and the file exists.
+Jul 25 21:05:40 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Previous error (see logs), or other system error.
+Jul 31 20:36:56 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Check that the path is correct, and the file exists.
+Jul 31 20:36:56 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Previous error (see logs), or other system error.
+Aug 18 20:34:13 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Check that the path is correct, and the file exists.
+Aug 18 20:34:13 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Previous error (see logs), or other system error.
+Aug 19 10:29:15 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Check that the path is correct, and the file exists.
+Aug 19 10:29:15 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Previous error (see logs), or other system error.
+Aug 21 21:52:21 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Check that the path is correct, and the file exists.
+Aug 21 21:52:21 certmanager	error	SSL/TLS: Failed to load /usr/local/Cellar/prosody/0.8.2/etc/prosody/certs/example.com.key: Previous error (see logs), or other system error.
