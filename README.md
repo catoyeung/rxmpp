@@ -1,0 +1,4 @@
+rxmpp
+=====
+
+Ruby XMPP Library
