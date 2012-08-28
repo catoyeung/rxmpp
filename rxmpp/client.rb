@@ -1,5 +1,5 @@
 require 'socket'
-require './jid'
+require_relative 'jid'
 
 class Client
   attr_accessor :stanzas
@@ -9,7 +9,7 @@ class Client
                     version="1.0" 
                     xmlns:stream="http://etherx.jabber.org/streams" 
                     xmlns="jabber:client">'
-  @stanzas = []
+  @stanza_classes = []
                     
   def self.stream_header
     @stream_header
@@ -25,28 +25,27 @@ class Client
       address = [@jid.domain, 5222]
     end
     @conn = TCPSocket.new address[0], address[1]
-    process
   end
   
   def process
     send_raw(Client.stream_header)
     while xml = read_xml
       stanza = build_stanza(xml)
-      #authenticate
-      puts xml
     end
   end
   
   def send_raw(data)
     @conn.puts data
   end
-  
+
+=begin  
   def authenticate
     stream = '<auth 
                 xmlns="urn:ietf:params:xml:ns:xmpp-sasl"
                 mechanism="DIGEST-MD5"/>'
     @conn.puts stream
   end
+=end
   
   def close
     @conn.close
@@ -58,6 +57,6 @@ class Client
   end
   
   def build_stanza(xml)
-    
+    puts xml
   end
 end
