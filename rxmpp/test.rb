@@ -1,8 +1,7 @@
-require './client'
+require_relative 'client'
 
-x = Client.new('cato@localhost/rxmpp', '123456')
+client = Client.new('cato@office.zensis.com/rxmpp', '123456')
 
-x.connect()
-x.read()
-#x.authenticate()
-x.close()
+if client.connect()
+  client.process()
+end
